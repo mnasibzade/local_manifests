@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+  <remote name="mn"
+          fetch="https://github.com/mnasibzade" />
+
+  <remote name="gitlab"
+          fetch="https://gitlab.com/" />
+
+  <remote name="github"
+          fetch="https://github.com/" />
+
+    <!-- Device Tree -->
+  <project path="device/xiaomi/ginkgo" name="android_device_xiaomi_ginkgo" remote="mn" revision="15.0" />
+  
+    <!-- Vendor -->
+  <project path="vendor/xiaomi/ginkgo" name="proprietary_vendor_xiaomi_ginkgo" remote="mn" revision="15.0" />
+  
+    <!-- Kernel -->
+  <project path="kernel/xiaomi/ginkgo" name="EklerKernel" remote="mn" revision="fourteen/dynamic-erofs" />
+
+    <!-- Dolby Atmos -->
+  <project path="vendor/sony/dolby" name="userariii/vendor_sony_dolby" remote="github" revision="v1.0_sonyDAXUI" />
+  
+    <!-- hardware/xiaomi -->
+  <project path="hardware/xiaomi" name="crdroidandroid/android_hardware_xiaomi" remote="github" revision="15.0" />
+
+    <!-- GApps -->
+  <project path="vendor/gapps" name="alonsoj636MW/vendor_gapps" remote="gitlab" revision="15" />
+  
+    <!-- Clocks -->
+  <project path="vendor/clocks" name="alonsoj636MW/vendor_clocks" remote="gitlab" revision="15" />
+
+   <!-- Clang -->
+  <project path="prebuilts/clang/host/linux-x86/clang-rastamod" name="kutemeikito/RastaMod69-Clang" remote="gitlab" revision="clang-20.0" />
+
+  <!-- Replace Hals Display for fix GCAM-->
+  <remove-project name="LineageOS/android_hardware_qcom_display"/>
+  <project path="hardware/qcom-caf/sm8150/display" name="ClownUI/hardware_qcom_display" groups="qcom" revision="vic-caf-sm8150" remote="github"/>
+
+</manifest>
