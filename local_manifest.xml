@@ -34,8 +34,4 @@
    <!-- Clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-rastamod" name="kutemeikito/RastaMod69-Clang" remote="gl" revision="clang-20.0" />
 
-  <!-- Replace Hals Display for fix GCAM-->
-  <remove-project name="LineageOS/android_hardware_qcom_display"/>
-  <project path="hardware/qcom-caf/sm8150/display" name="ClownUI/hardware_qcom_display" groups="qcom" revision="vic-caf-sm8150" remote="gh"/>
-
 </manifest>
