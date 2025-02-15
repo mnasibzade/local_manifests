@@ -21,6 +21,9 @@
 
     <!-- Dolby Atmos -->
   <project path="vendor/sony/dolby" name="userariii/vendor_sony_dolby" remote="gh" revision="v1.0_sonyDAXUI" />
+ 
+  <!-- ANX -->
+  <project path="vendor/xiaomi/miuicamera" name="ZorEl212/vendor_xiaomi_miuicamera" remote="gl" revision="anx-ginkgo" />
   
     <!-- hardware/xiaomi -->
   <project path="hardware/xiaomi" name="crdroidandroid/android_hardware_xiaomi" remote="gh" revision="15.0" />
