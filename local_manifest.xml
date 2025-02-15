@@ -24,9 +24,6 @@
   
     <!-- ANX -->
   <project path="vendor/xiaomi/miuicamera" name="ZorEl212/vendor_xiaomi_miuicamera" remote="gh" revision="anx-ginkgo" />
-  
-    <!-- hardware/xiaomi -->
-  <project path="hardware/xiaomi" name="crdroidandroid/android_hardware_xiaomi" remote="gh" revision="15.0" />
 
     <!-- GApps -->
   <project path="vendor/gapps" name="alonsoj636MW/vendor_gapps" remote="gl" revision="15" />
