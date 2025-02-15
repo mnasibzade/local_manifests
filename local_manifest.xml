@@ -21,9 +21,7 @@
 
     <!-- Dolby Atmos -->
   <project path="vendor/sony/dolby" name="userariii/vendor_sony_dolby" remote="gh" revision="v1.0_sonyDAXUI" />
-  
-    <!-- ANX -->
-  <project path="vendor/xiaomi/miuicamera" name="ZorEl212/vendor_xiaomi_miuicamera" remote="gh" revision="anx-ginkgo" />
+
 
     <!-- GApps -->
   <project path="vendor/gapps" name="alonsoj636MW/vendor_gapps" remote="gl" revision="15" />
