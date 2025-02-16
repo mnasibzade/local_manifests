@@ -25,9 +25,6 @@
   <!-- ANX -->
   <project path="vendor/xiaomi/miuicamera" name="ZorEl212/vendor_xiaomi_miuicamera" remote="gl" revision="anx-ginkgo" />
   
-    <!-- hardware/xiaomi -->
-  <project path="hardware/xiaomi" name="crdroidandroid/android_hardware_xiaomi" remote="gh" revision="15.0" />
-
    <!-- Clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-rastamod" name="kutemeikito/RastaMod69-Clang" remote="gl" revision="clang-20.0" />
 
