@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
-  <remote name="alpha-devices"
-          fetch="https://github.com/mnasibzade" />
+  <remote name="alphadroid-devices"
+          fetch="https://github.com/AlphaDroid-devices" />
 
   <remote name="gl"
           fetch="https://gitlab.com/" />
 
     <!-- Device Tree -->
-  <project path="device/xiaomi/ginkgo" name="device_xiaomi_ginkgo" remote="alpha-devices" revision="alpha-15.1" />
+  <project path="device/xiaomi/ginkgo" name="device_xiaomi_ginkgo" remote="alphadroid-devices" revision="alpha-15.1" />
   
     <!-- Vendor -->
-  <project path="vendor/xiaomi/ginkgo" name="vendor_xiaomi_ginkgo" remote="alpha-devices" revision="alpha-15.1" />
+  <project path="vendor/xiaomi/ginkgo" name="vendor_xiaomi_ginkgo" remote="alphadroid-devices" revision="alpha-15.1" />
   
     <!-- Kernel -->
-  <project path="kernel/xiaomi/ginkgo" name="kernel_xiaomi_ginkgo" remote="alpha-devices" revision="alpha-15.1" />
+  <project path="kernel/xiaomi/ginkgo" name="kernel_xiaomi_ginkgo" remote="alphadroid-devices" revision="alpha-15.1" />
  
     <!-- ANX -->
   <project path="vendor/xiaomi/miuicamera" name="ZorEl212/vendor_xiaomi_miuicamera" remote="gl" revision="anx-ginkgo" />
