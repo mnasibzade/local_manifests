@@ -28,7 +28,7 @@ $ lunch alpha_ginkgo-<build_variant>
 $ make bacon
 
 # Or, instead of 'lunch + make', just
-$ brunch alpha_<device_codename>-<build_variant>
+$ brunch alpha_ginkgo-<build_variant>
 ```
 
 <p>
