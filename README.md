@@ -39,7 +39,7 @@ $ cd crDroid
 $ repo init -u https://github.com/crdroidandroid/android.git -b 15.0 --git-lfs
 
 # Clone local manifest
-$ git clone https://github.com/mnasibzade/local_manifest -b 15.0-staging .repo/local_manifests
+$ git clone https://github.com/mnasibzade/local_manifest -b 15.0 .repo/local_manifests
 ```
 
 This is what you will run each time you want to pull in upstream changes. Keep in mind that on your
