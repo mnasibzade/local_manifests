@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
-  <remote name="mn"
-          fetch="https://github.com/mnasibzade" />
+  <remote name="crd"
+          fetch="https://github.com/crdroidandroid" />
 
   <remote name="gl"
           fetch="https://gitlab.com/" />
@@ -11,13 +11,13 @@
           fetch="https://github.com/" />
 
     <!-- Device Tree -->
-  <project path="device/xiaomi/ginkgo" name="android_device_xiaomi_ginkgo" remote="mn" revision="15.0" />
+  <project path="device/xiaomi/ginkgo" name="android_device_xiaomi_ginkgo" remote="crd" revision="15.0" />
   
     <!-- Vendor -->
-  <project path="vendor/xiaomi/ginkgo" name="proprietary_vendor_xiaomi_ginkgo" remote="mn" revision="15.0" />
+  <project path="vendor/xiaomi/ginkgo" name="proprietary_vendor_xiaomi_ginkgo" remote="crd" revision="15.0" />
   
     <!-- Kernel -->
-  <project path="kernel/xiaomi/ginkgo" name="EklerKernel" remote="mn" revision="fourteen/dynamic-erofs" />
+  <project path="kernel/xiaomi/ginkgo" name="android_kernel_xiaomi_ginkgo" remote="crd" revision="15.0" />
  
   <!-- ANX -->
   <project path="vendor/xiaomi/miuicamera" name="ZorEl212/vendor_xiaomi_miuicamera" remote="gl" revision="anx-ginkgo" />
